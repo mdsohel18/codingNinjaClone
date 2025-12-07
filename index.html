@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 
 <body>
@@ -14,51 +15,45 @@
         <img src="./New folder/new-cn-logos-34283.webp" alt="" height="45px">
         <button>Request callback</button>
     </header>
-    <div class="backgroung" style="margin-top: 70px;">
+    <div class="background">
         <div class="left-side">
-            <img src="./New folder/fir-professional-tag-.webp" alt="" height="32px" style="margin-top: 50px;">
+            <img class="l-img" src="./New folder/fir-professional-tag-.webp" alt="" height="32px"
+                style="margin-top: 50px;">
             <h1 style="margin-top: 32px;letter-spacing: 0;font-size: 32px; font-weight: 700; line-height:42px;">
                 Full Stack Web Development Job Bootcamp with GenAI
             </h1>
-            <p
-                style="    letter-spacing: 0; font-weight: 100; font-size: 16px; line-height: 24px; margin-top: 20px; color: #bbbbbb;">
+            <p class="bg-p">
                 Choose MERN stack
                 or Spring Boot and acquire expertise through practical application and
                 real-world
                 projects.
             </p>
-            <div class="feature" style="margin-top: 30px;">
-                <div
-                    style=" background-color: #2f2f31; color: #979797;  display: flex; flex-direction: row;  gap: 4px; align-items: center; padding: 4px 8px; border-radius: 40px; width: max-content;">
+            <div class="feature">
+                <div class="feature-item">
                     <img _ngcontent-ng-c669080689="" src="./New folder/live-one-one-doubt-.svg"
                         alt="Placement assistance">
                     <p> Placement assistance </p>
                 </div>
-                <div
-                    style=" background-color: #2f2f31;color: #979797;  display: flex; flex-direction:  row; gap: 4px;align-items: center; padding: 4px 8px;border-radius: 40px;width:max-content">
+                <div class="feature-item">
                     <img _ngcontent-ng-c669080689="" src="./New folder/future-ready-curriculam-.svg"
                         alt="AI-infused curriculum ">
                     <p> AI-infused curriculum </p>
                 </div>
-                <div
-                    style=" background-color: #2f2f31;color: #979797;  display: flex; flex-direction:  row; gap: 4px;align-items: center; padding: 4px 8px;border-radius: 40px;width:max-content">
+            </div>
+            <div class="feature" style="margin-top: 0;">
+                <div class="feature-item">
                     <img _ngcontent-ng-c669080689="" src="./New folder/placement-assistance.svg" alt="1:1 mentorship">
                     <p> 1:1 mentorship </p>
                 </div>
-
-
-
-
-            </div>
-            <div class="feature">
-                <div
-                    style=" background-color: #2f2f31; color: #979797;  display: flex; flex-direction: row;  gap: 4px; align-items: center; padding: 4px 8px; border-radius: 40px; width: max-content;">
+                <div class="feature-item">
                     <img _ngcontent-ng-c669080689="" src="./New folder/stanford-iit-maang-faculty.svg"
                         alt="Faculty from MAANG">
                     <p> Faculty from MAANG </p>
                 </div>
-
             </div>
+
+
+
 
             <div class="stats-box">
                 <div class="stat">
@@ -144,7 +139,7 @@
             </div>
             <div class="curriculum-btn">
                 <button> Download MERN brochure </button>
-                <button> Download Springboot brochure </button>
+                <button id="btn1"> Download Springboot brochure </button>
             </div>
         </div>
     </div>
@@ -185,7 +180,7 @@
             </div>
 
         </div>
-        <div class="hike-section-cart" style="margin-top: 25px;">
+        <div class="hike-section-cart" id="non">
             <div class="box-shadow">
                 <div class="cart">
                     <img src="./New folder/1.webp" alt="">
@@ -399,6 +394,65 @@
             <button class="btn1">Request callback</button>
             <button>Book a free webinar</button>
         </div>
+    </section>
+    <!-- offering-section -->
+    <section class="offering-section">
+        <div class="facilities">
+            <h2 class="benifi-heading"> Job Bootcamp benefits </h2>
+            <div class="facilities-grid-1">
+                <div class="f_g-a">
+                    <img src="" alt="1:1">
+                    <h5 class="facilities-title"> 1:1 expert
+                        session </h5>
+                    <p class="facilities-dis">
+
+                        Connects theoretical understanding with practical implementation through <br> their
+                        insights
+                    </p>
+                </div>
+                <div class="f_g-b"> <img src="" alt="Expe">
+                    <h5 class="facilities-title-1"> Expert
+                        faculty from MAANG </h5>
+                    <p class="facilities-dis-1">
+
+
+                        Top-tier education enriched by <br> practical knowledge and innovation
+                    </p>
+                </div>
+            </div>
+            <div class="facilities-grid-2">
+                <div class="f_g_2-box">
+                    <img src="" alt="Proj">
+                    <h5 class="f_g_2-title">Projects & hackathons </h5>
+                    <p class="f_g_2-dis">
+
+                        Hands-on learning to spark creative <br> problem-solving
+                    </p>
+                </div>
+
+                <div class="f_g_2-box">
+                    <img src="" alt="Fast">
+                    <h5 class="f_g_2-title">Fastest doubt support </h5>
+                    <p class="f_g_2-dis">
+
+                        Personalised assistance for a clear <br> understanding of concepts
+
+
+                    </p>
+                </div>
+
+                <div class="f_g_2-box">
+                    <img src="" alt="Self-">
+                    <h5 class="f_g_2-title">Self-paced classes </h5>
+                    <p class="f_g_2-dis">
+
+                        Learn at your pace with practice and <br> instant feedback
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
     </section>
 
 </body>
